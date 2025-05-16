@@ -1,0 +1,29 @@
+{
+  "name": "terra-mort-rium",
+  "version": "1.0.0",
+  "description": "A responsive, full-stack e-commerce MERN app that celebrates life with a personalised terrarium and a sonic landscape.",
+  "homepage": "https://github.com/gina-t/terra-mort-rium#readme",
+  "bugs": {
+    "url": "https://github.com/gina-t/terra-mort-rium/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gina-t/terra-mort-rium.git"
+  },
+  "license": "MIT",
+  "author": "Dr Gina Tsanaktsidis",
+  "type": "module",
+  "main": "server/dist/server.js",
+  "scripts": {
+    "start": "node server/dist/server.js",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
+    "render-build": "npm install && cd server && npm install && cd ../client && npm install && cd .. && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
