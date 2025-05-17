@@ -1,13 +1,18 @@
-import { Outlet } from 'react-router-dom';
+import Router from './router';
+import Header from './components/Header';
 
-const App = () => {
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { ScrollSmoother } from 'gsap/ScrollSmoother';
+import { useGSAP } from '@gsap/react';
+
+gsap.registerPlugin(ScrollSmoother, ScrollTrigger, useGSAP);
+
+export default function App() {
   return (
-    <div>
-      <main>
-        <Outlet />
-      </main>
-    </div>
+    <>
+      <Header />
+      <Router />
+    </>
   );
-};
-
-export default App;
+}
