@@ -50,7 +50,9 @@ app.use(
 );
 
 // serve static files from the react app
-app.use(express.static(path.join(__dirname, '../../client/dist')));
+app.use(express.static(path.join(__dirname, '../../client/dist'), {
+  maxAge: '1y'
+}));
 
 app.get('/health', (req: Request, res: Response) => {
   res.status(200).send('OK');
