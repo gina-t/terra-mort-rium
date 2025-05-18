@@ -19,7 +19,7 @@ const ImagesPage = () => {
           The Tibetan Book of Living and Dying explores Tibetan Buddhist
           perspectives about life, death, and the interconnectedness of these
           states. It emphasizes the importance of understanding impermanence,
-          detachment, compassion and equanimity. Matt Formatt explores these ideas through
+          detachment, compassion and equanimity. Matt Format explores these ideas through
           bespoke terrariums immersed in soundtracks that deeply influenced each
           decade of your life. To prepare for death, or support
           those who are dying, we invite you to explore <strong>Terra(<span className='font-serif'>mort</span>)rium <span className='font-serif'>et</span> Sonus.</strong>
@@ -37,39 +37,74 @@ const ImagesPage = () => {
 
       {/* Content Two Soundtrack */}
       <div className="content-section" style={{ top: '240vh' }}>
-        <h2>Soundtrack</h2>
+        <h2>Soundtracks</h2>
         <p>
-          Choose the tracks that deeply impressed you from each decade of your
-          life, to accompany your terrarium.
+          Choose the music that deeply impressed you from each decade of your
+          life, to compliment your terrarium.
         </p>
       </div>
 
       {/* Content Three Poetry */}
       <div className="content-section" style={{ top: '280vh' }}>
-        {/* <h2>Poetry</h2> */}
-        <h2>Choose the poems that enriched your life.</h2>
+        <h2>Poetry</h2>
+        <p>Choose the poems that enriched you.</p> 
+        <p className="font-serif font-bold">By Maya Angelou</p>
         <p>
-          When great trees fall, rocks on distant hills shudder, lions hunker
-          down in tall grasses, and even elephants lumber after safety. When
-          great trees fall in forests, small things recoil into silence, their
-          senses eroded beyond fear. When great souls die, the air around us
-          becomes light, rare, sterile. We breathe, briefly. Our eyes, briefly,
-          see with a hurtful clarity. Our memory, suddenly sharpened, examines,
-          gnaws on kind words unsaid, promised walks never taken. Great souls
-          die and our reality, bound to them, takes leave of us. Our souls,
-          dependent upon their nurture, now shrink, wizened. Our minds, formed
-          and informed by their radiance, fall away. We are not so much maddened
-          as reduced to the unutterable ignorance of dark, cold caves. And when
-          great souls die, after a period peace blooms, slowly and always
-          irregularly. Spaces fill with a kind of soothing electric vibration.
-          Our senses, restored, never to be the same, whisper to us. They
-          existed. They existed. We can be. Be and be better. For they existed.
+          When great trees fall, <br />
+          rocks on distant hills shudder, <br />
+          lions hunker down <br />
+          in tall grasses, <br />
+          and even elephants <br />
+          lumber after safety. <br /> <br />
+          When great trees fall <br />
+          in forests, <br />
+          small things recoil into silence, <br />
+          their senses <br />
+          eroded beyond fear. <br /><br />
+          When great souls die, <br />
+          the air around us becomes <br />
+          light, rare, sterile. <br />  
+          We breathe, briefly. <br />
+          Our eyes, briefly, <br />
+          see with <br />
+          a hurtful clarity. <br />
+          Our memory, suddenly sharpened, <br />
+          examines, <br />
+          gnaws on kind words <br />
+          unsaid, <br />
+          promised walks <br />
+          never taken. <br /><br />
+          Great souls die and <br />
+          our reality, bound to <br />
+          them, takes leave of us. <br />
+          Our souls, <br />
+          dependent upon their <br />
+          nurture, <br />
+          now shrink, wizened. <br />
+          Our minds, formed <br />
+          and informed by their <br />
+          radiance, fall away. <br />
+          We are not so much maddened <br />
+          as reduced to the unutterable ignorance of <br />
+          dark, cold <br />
+          caves. <br /><br />
+          And when great souls die, <br />
+          after a period peace blooms, <br />
+          slowly and always <br />
+          irregularly. Spaces fill <br />
+          with a kind of <br />
+          soothing electric vibration. <br />
+          Our senses, restored, never <br />
+          to be the same, whisper to us. <br />
+          They existed. They existed. <br />
+          We can be. Be and be <br />
+          better. For they existed.
         </p>
-        <strong className="font-serif">By Maya Angelou </strong>
+        
       </div>
 
       {/* Content Four Costing */}
-      <div className="content-section" style={{ top: '435vh' }}>
+      <div className="content-section" style={{ top: '450vh' }}>
         <h2>Costing</h2>
         <p>
           Matt Formatt believes <strong>Terra(<span className='font-serif'>mort</span>)rium <span className='font-serif'>et</span> Sonus</strong> should be accessible to anyone. The base cost is $500.
@@ -78,7 +113,7 @@ const ImagesPage = () => {
 
       {/* Content Five Contact*/}
       <div className="content-section" style={{ top: '550vh' }}>
-        <h2>Contact Matt Formatt</h2>
+        <h2>Contact Matt Format at terramoriam@gmail.com</h2>
         <p>
           To register your interest, click the register button below.
         </p>
