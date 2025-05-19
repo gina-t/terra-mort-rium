@@ -61,54 +61,15 @@ const ImagesPage = () => {
           small things recoil into silence, <br />
           their senses <br />
           eroded beyond fear. <br /><br />
-          <ReadMoreButton />
-          {/* When great souls die, <br />
-          the air around us becomes <br />
-          light, rare, sterile. <br />  
-          We breathe, briefly. <br />
-          Our eyes, briefly, <br />
-          see with <br />
-          a hurtful clarity. <br />
-          Our memory, suddenly sharpened, <br />
-          examines, <br />
-          gnaws on kind words <br />
-          unsaid, <br />
-          promised walks <br />
-          never taken. <br /><br />
-          Great souls die and <br />
-          our reality, bound to <br />
-          them, takes leave of us. <br />
-          Our souls, <br />
-          dependent upon their <br />
-          nurture, <br />
-          now shrink, wizened. <br />
-          Our minds, formed <br />
-          and informed by their <br />
-          radiance, fall away. <br />
-          We are not so much maddened <br />
-          as reduced to the unutterable ignorance of <br />
-          dark, cold <br />
-          caves. <br /><br />
-          And when great souls die, <br />
-          after a period peace blooms, <br />
-          slowly and always <br />
-          irregularly. Spaces fill <br />
-          with a kind of <br />
-          soothing electric vibration. <br />
-          Our senses, restored, never <br />
-          to be the same, whisper to us. <br />
-          They existed. They existed. <br />
-          We can be. Be and be <br />
-          better. For they existed. */}
-        </p>
-        
+          </p>
+          <ReadMoreButton /> 
       </div>
 
       {/* Content Four Costing */}
       <div className="content-section" style={{ top: '475vh' }}>
         <h2>Costing</h2>
         <p>
-          Matt Formatt believes <strong>Terra(<span className='font-serif'>mort</span>)rium <span className='font-serif'>et</span> Sonus</strong> should be accessible to anyone. The base cost is $500.
+          Matt Format believes <strong>Terra(<span className='font-serif'>mort</span>)rium <span className='font-serif'>et</span> Sonus</strong> should be accessible to anyone. The base cost is $500.
         </p>
       </div>
 
