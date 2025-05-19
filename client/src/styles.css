@@ -90,14 +90,12 @@ body {
 }
 
 .content-section h2 {
-  /* color: var(--light); */
   margin-bottom: 1rem;
   font-size: 1.5rem;
   
 }
 
 .content-section p {
-  /* color: var(--light); */
   line-height: 1.6;
   font-size: 0.9rem;
 }
@@ -196,7 +194,6 @@ header ul li {
 }
 
 header ul a {
-  color: var(--light);
   font-weight: normal;
   text-decoration: none;
   display: block;
@@ -221,7 +218,7 @@ header .icon {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 1rem;
-  grid-row-gap: 33.3vh;
+  grid-row-gap: 45vh;
   width: 100vw;
   margin: 0 auto;
 }
@@ -319,4 +316,62 @@ header .icon {
   opacity: 0.2;
   border-left: 0.5px white solid;
   border-right: 0.5px white solid;
+}
+
+/* iOS Safari specific fixes for smooth scrolling */
+@supports (-webkit-touch-callout: none) {
+  /* iOS specific selector */
+  
+  /* Prevent scroll chaining and improve momentum scrolling */
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Main scrollable container */
+  #smooth-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    transform: translate3d(0, 0, 0); /* Force hardware acceleration */
+  }
+  
+  /* Reduce parallax effects on mobile Safari */
+  .image_cont img {
+    transform: translateZ(0); /* Force hardware acceleration */
+    backface-visibility: hidden;
+    perspective: 1000px;
+    will-change: transform; /* Hint to browser about animations */
+  }
+  
+  /* Stabilize fixed content */
+  .content-section {
+    transform: translateX(-50%) translateZ(0);
+    backface-visibility: hidden;
+    will-change: transform;
+  }
+  
+  /* Disable hover effects that might cause repaints */
+  a:hover {
+    transition: none !important;
+  }
+}
+
+/* Specifically target higher pixel density devices like iPhone 12 Pro */
+@media (-webkit-min-device-pixel-ratio: 3) {
+  .image_cont {
+    transform: translateZ(0);
+  }
+  
+  /* Reduce the height of images to improve performance */
+  .image_cont img {
+    height: 140% !important; /* Slightly smaller than your current 160% */
+  }
 }
