@@ -373,37 +373,5 @@ header .icon {
   /* Reduce the height of images to improve performance */
   .image_cont img {
     height: 140% !important; /* Slightly smaller than your current 160% */
-=======
-/* Add this at the end of your CSS file */
-@media (max-width: 768px) {
-  /* Improve native scrolling on mobile */
-  html, body {
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  /* Target the image containers directly */
-  .image-grid .image_cont {
-    transform: none !important;
-    transition: none !important;
-    will-change: auto !important;
-  }
-  
-  /* Target images within containers */
-  .image-grid .image_cont img {
-    transform: none !important;
-    transition: none !important;
-    will-change: auto !important;
-    height: 120%; /* Slightly reduce the height on mobile for better performance */
-  }
-  
-  /* Adjust spacing between images for mobile */
-  .image-grid {
-    grid-row-gap: 20vh; /* Reduced from 33.3vh */
-  }
-  
-  /* Make content sections more mobile-friendly */
-  .content-section {
-    width: 95%;
-    padding: 1.5rem;
   }
 }
