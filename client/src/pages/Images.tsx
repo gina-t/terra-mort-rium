@@ -5,10 +5,12 @@ import imageThree from '../assets/imageThree.jpg';
 import imageFour from '../assets/imageFour.jpg';
 import imageFive from '../assets/imageFive.jpg';
 import ReadMoreButton from '../components/ReadMoreButton';
+import Header from '../components/Header';
 
 const ImagesPage = () => {
   return (
     <main className="images">
+      <Header />
       {/* Absolutely positioned content sections */}
 
       {/* Header Content */}
