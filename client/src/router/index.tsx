@@ -1,3 +1,5 @@
+
+
 import { Routes, Route, useLocation } from 'react-router';
 import gsap from 'gsap';
 import { ScrollSmoother } from 'gsap/ScrollSmoother';
@@ -24,7 +26,7 @@ export default function Router() {
         <Routes>
           <Route>
             <Route index element={<Images />} />
-            {/* <Route path="images" element={<Images />} /> */}
+            <Route path="images" element={<Images />} />
             <Route path="read-more-poetry" element={<Poetry />} />
           </Route>
         </Routes>

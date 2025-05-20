@@ -1,5 +1,5 @@
 import Router from './router';
-import Header from './components/Header';
+// import Header from './components/Header';
 
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollSmoother, ScrollTrigger, useGSAP);
 export default function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Router />
     </>
   );
