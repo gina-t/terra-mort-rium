@@ -1,4 +1,3 @@
-// import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -7,7 +6,6 @@ export default function Header() {
         Terra(<span className="font-serif">mort</span>)rium{' '}
         <span className="font-serif">et</span> Sonus
       </h1>
-
     </header>
   );
 }

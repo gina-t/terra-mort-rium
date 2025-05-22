@@ -7,10 +7,7 @@ export default function Poetry() {
     <div className="bg-gray-950 py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <div className="flex justify-between items-center mb-10">
-          <h2 className="text-3xl font-bold tracking-tight">Poetry Collection</h2>
-          {/* <Link to="/images" className="text-emerald-500 hover:text-emerald-400">
-            &larr; Return Home
-          </Link> */}
+          <h2 className="text-3xl font-bold tracking-tight text-center">Poetry Collection</h2>
         </div>
         
         <div className="grid grid-cols-1 gap-5 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
@@ -18,7 +15,7 @@ export default function Poetry() {
           <div className="lg:col-span-4">
             <PoemCard 
               poet="Maya Angelou"
-              title="When Great Trees Fall"
+              title=""
               content={poems.angelou}
               cornerClass="lg:rounded-tl-4xl"
             />
@@ -28,7 +25,7 @@ export default function Poetry() {
           <div className="lg:col-span-2">
             <PoemCard 
               poet="W.H. Auden"
-              title="Funeral Blues"
+              title=""
               content={poems.auden}
               cornerClass="lg:rounded-tr-4xl"
             />
@@ -38,7 +35,7 @@ export default function Poetry() {
           <div className="lg:col-span-2">
             <PoemCard 
               poet="Dylan Thomas"
-              title="Do Not Go Gentle Into That Good Night"
+              title=""
               content={poems.thomas}
               cornerClass="lg:rounded-bl-4xl"
             />
@@ -48,7 +45,7 @@ export default function Poetry() {
           <div className="lg:col-span-4">
             <PoemCard 
               poet="Emily Dickinson"
-              title="Because I Could Not Stop For Death"
+              title=""
               content={poems.dickinson}
               cornerClass="lg:rounded-br-4xl"
             />
