@@ -6,15 +6,16 @@ import imageFour from '../assets/imageFour.jpg';
 import imageFive from '../assets/imageFive.jpg';
 import ReadMoreButton from '../components/ReadMoreButton';
 import Header from '../components/Header';
+import LearnMoreButton from '../components/LearnMoreButton';
+
 
 const ImagesPage = () => {
   return (
     <main className="images">
       <Header />
       {/* Absolutely positioned content sections */}
-
       {/* Header Content */}
-      <div className="content-section" style={{ top: '44vh' }}>
+      <div className="content-section" style={{ top: '43vh' }}>
         <h2>
           Earth, Death, Place <span className="font-serif">and</span> Sound
         </h2>
@@ -30,7 +31,7 @@ const ImagesPage = () => {
       </div>
 
       {/* Content One Terrariums */}
-      <div className="content-section" style={{ top: '163vh' }}>
+      <div className="content-section" style={{ top: '162vh' }}>
         <h2>Terrariums</h2>
         <p>
           Choose from tropical or arid plants to personalise your terrarium,
@@ -48,9 +49,8 @@ const ImagesPage = () => {
       </div>
 
       {/* Content Three Poetry */}
-      <div className="content-section" style={{ top: '350vh' }}>
+      <div className="content-section" style={{ top: '347vh' }}>
         <h2>Poetry</h2>
-        
         <p>
           When great trees fall, <br />
           rocks on distant hills shudder, <br />
@@ -68,7 +68,7 @@ const ImagesPage = () => {
       </div>
 
       {/* Content Four Costing */}
-      <div className="content-section" style={{ top: '475vh' }}>
+      <div className="content-section" style={{ top: '473vh' }}>
         <h2>Costing</h2>
         <p>
           Matt Format believes <strong>Terra(<span className='font-serif'>mort</span>)rium <span className='font-serif'>et</span> Sonus</strong> should be accessible to anyone. The base cost is $500.
@@ -76,11 +76,23 @@ const ImagesPage = () => {
       </div>
 
       {/* Content Five Contact*/}
-      <div className="content-section" style={{ top: '580vh' }}>
-        <h2>Contact Matt Format at terramoriam@gmail.com</h2>
+      <div className="content-section" style={{ top: '495vh' }}>
+        <h2>Contact</h2>
         <p>
-          To register your interest, click the register button below.
+          Matt Format
         </p>
+        <a href="mailto:terramoriam@gmail.com" className="email-link">
+          terramoriam@gmail.com
+        </a>    
+      </div>
+
+      {/* Content Six Tao's Story */}
+      <div className="content-section" style={{ top: '580vh' }}>
+        <h2>Tao's Story</h2>
+        <p>
+          Tao chose a cerulean hand-blown glass terrarium, accompanied by a soundtrack of electronic music, from the early 1980s pioneers of electro, to downtempo Italian techno, hynotic and alluring.
+        </p>
+         <LearnMoreButton />
       </div>
 
       {/* Header Image */}
