@@ -3,31 +3,6 @@
   box-sizing: border-box;
 }
 
-/* @font-face {
-  font-display: block;
-  font-family: Mori;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://gsap.com/fonts/Mori/PPMori-Regular.woff) format('woff');
-}
-
-@font-face {
-  font-display: block;
-  font-family: Mori;
-  font-style: normal;
-  font-weight: 600;
-  src: url(https://gsap.com/fonts/Mori/PPMori-SemiBold.woff) format('woff');
-}
-
-@font-face {
-  font-display: block;
-  font-family: Fraktion Mono;
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://gsap.com/fonts/Fraktion/PPFraktionMono-Bold.woff)
-    format('woff');
-} */
-
 :root {
   --color-shockingly-green: #0ae448;
   --color-just-black: #0e100f;
@@ -471,20 +446,6 @@ h4,
   font-size: var(--step-1);
 }
 
-/* a {
-  color: var(--green);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.light a {
-  color: var(--green-dark);
-} */
-
 /* button:not('.box') { breaking for some reason in codepen? */
 button {
   display: inline-block;
@@ -500,28 +461,6 @@ button {
   font-weight: 600;
   cursor: pointer;
   line-height: 18px;
-}
-
-.gsap-logo {
-  width: 20vw;
-  max-width: 150px;
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  mix-blend-mode: difference;
-  z-index: 9999;
-}
-
-.gsap-logo img {
-  width: 100%;
-}
-
-.gsap-3-logo {
-  width: 20vw;
-  max-width: 150px;
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
 }
 
 /* panels  */

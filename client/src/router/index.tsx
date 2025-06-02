@@ -1,5 +1,3 @@
-
-
 import { Routes, Route, useLocation } from 'react-router';
 import gsap from 'gsap';
 import { ScrollSmoother } from 'gsap/ScrollSmoother';
