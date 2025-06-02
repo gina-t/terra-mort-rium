@@ -7,7 +7,7 @@ import imageFive from '../assets/imageFive.jpg';
 import ReadMoreButton from '../components/ReadMoreButton';
 import Header from '../components/Header';
 import LearnMoreButton from '../components/LearnMoreButton';
-
+import Footer from '../components/Footer';
 
 const ImagesPage = () => {
   return (
@@ -139,6 +139,9 @@ const ImagesPage = () => {
         </div>
       </section>
       <div className="spacer"></div>
+      
+      {/* Footer */}
+      <Footer />
     </main>
   );
 };

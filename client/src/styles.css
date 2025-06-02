@@ -26,11 +26,33 @@ input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
 
-* {
+
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+} */
+
+/* Replace with targeted reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+/* Only reset specific elements, exclude footer */
+body, 
+main,
+section,
+div:not(footer div),
+h1, h2, h3, h4, h5, h6,
+p:not(footer p),
+ul:not(footer ul),
+li:not(footer li) {
+  margin: 0;
+  padding: 0;
+}
+
 
 body {
   overscroll-behavior: none;
@@ -150,16 +172,6 @@ button {
   font-size: 40px;
 }
 
-footer {
-  position: fixed;
-  right: 0px;
-  bottom: 0px;
-  padding: 6px 10px 10px 12px;
-  border-top-left-radius: 26px;
-  z-index: 100;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .end {
   position: absolute;
   /*   bottom: 0; */
@@ -212,7 +224,7 @@ header .icon {
 }
 
 .spacer {
-  height: 100vh;
+  height: 75vh;
 }
 
 .image-grid {
